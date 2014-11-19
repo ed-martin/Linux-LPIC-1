@@ -1,4 +1,5 @@
 Course Content
+
 1. MANAGE FILE PERMISSIONS AND OWNERSHIP
 1. LPI Objectives Covered
 2. Filesystem Hierarchy Standard
