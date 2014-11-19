@@ -15,20 +15,20 @@ Course Content
 12. SGID and Sticky Bit on Directories
 13. User Private Group Scheme
 
-2. CREATE, DELETE, FIND, AND DISPLAY FILES
-1. LPI Objectives Covered
-2. Directory Manipulation
-3. File Manipulation
-4. Deleting and Creating Files
-5. Physical Unix File Structure
-6. Filesystem Links
-7. File Extensions and Content
-8. Displaying Files
-9. Previewing Files
-10. Displaying Binary Files
-11. Searching the Filesystem
-12. Alternate Search Method
-13. Shared Libraries
+  2. CREATE, DELETE, FIND, AND DISPLAY FILES
+  1. LPI Objectives Covered
+  2. Directory Manipulation
+  3. File Manipulation
+  4. Deleting and Creating Files
+  5. Physical Unix File Structure
+  6. Filesystem Links
+  7. File Extensions and Content
+  8. Displaying Files
+  9. Previewing Files
+  10. Displaying Binary Files
+  11. Searching the Filesystem
+  12. Alternate Search Method
+  13. Shared Libraries
 
 3. WORK WITH ARCHIVES AND COMPRESSION
 1. LPI Objectives Covered
