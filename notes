@@ -11,4 +11,14 @@ Exam: http://wiki.lpi.org/wiki/LPIC-1
 ______________________________________________
 ______________________________________________
 
-dfdsds
+Chapter 2
+
+USE STREAMS, PIPES, AND REDIRECTS
+
+FILE REDIRECTION
+
+data stream 0 input
+data stream 1 input
+data stream 2 output
+
+
