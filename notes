@@ -25,6 +25,8 @@ $ sort < /etc/passwd  ## sort tasks  ## redirect standard input with
 $ echo 100000 > /proc/sys/fs/file-max  ## redirect standard output with
 $ ls -alR /proc/ 2> /dev/null  ##  redirect standard error with
 
+
+
 ## /dev/null (black hole - good place to send error messages to so customers dont't see them in testing environment)
 
 $ ls -R /proc/ >output 2>&1
@@ -70,5 +72,29 @@ double quotes still allow $SHELL, etc
 multiple commands fromt eh smae line put ; betwenn them
 / to keep line running
 
+_____________________________________________
+CHAPTER 3
+_____________________________________________
+
+FILESYSTEM HIERARCHY 
+
+Root file systems
+VAR - Variable size (log files, printer queues, mail queues)
+home - where users have files
+everything lives under one common root
+
+
+RELATIVE PATHS
+.././Documents
+
+## . curretn directory
+## .. 1 directory up
+
+a time 
+c time 
+m time (metadata)
+
+## how does a file system work
+mkfs makes a file system on a disk 
 
 
