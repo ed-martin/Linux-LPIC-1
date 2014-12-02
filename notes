@@ -21,4 +21,43 @@ data stream 0 input
 data stream 1 input
 data stream 2 output
 
-ds
+$ sort < /etc/passwd  ## sort tasks  ## redirect standard input with
+$ echo 100000 > /proc/sys/fs/file-max  ## redirect standard output with
+$ ls -alR /proc/ 2> /dev/null  ##  redirect standard error with
+
+## /dev/null (black hole - good place to send error messages to so customers dont't see them in testing environment)
+
+$ ls -R /proc/ >output 2>&1
+$ ls -R /proc/ &>output 
+
+____________________________________________
+
+Piping Commands Together ## allows STDOUT from one program to become STDIN for another
+
+sort | unique
+sort | unique -c  ## counts them for me
+sort -n  ## sort with numbers
+cat nums
+
+cut -d: -f6 /etc/passwd | sort | uniq -c | sort -nr | less
+
+ls /proc/ 2>&1 | grep kernal ## data strem 1 and 2 to the pipeline
+
+_____________________________________________
+
+FILENAME MATCHING
+
+ls *  ## list all
+ls ? ## the ? is a wildcard that means exactly 1
+ls [Ff}ile ## upper or lowercase characters
+ls [a-z]ile
+ls F[aeiou]le ## vowel              [ ] mean something from this set
+
+_____________________________________________
+
+BRACE EXPANSION ## bash only
+
+touch ## creates a file or updates datestamp on it
+
+
+
