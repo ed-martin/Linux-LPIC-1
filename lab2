@@ -23,4 +23,136 @@ cat: /etc/shadow: Permission denied
 [guru@station1 ~]$ grep aol mailqueue.txt | wc -l
 157
 [guru@station1 ~]$ ^C
+[guru@station1 ~]$ cat mailqueue.txt | wc -l
+1349
+[guru@station1 ~]$ wc -l mailqueue.txt
+1349 mailqueue.txt
+[guru@station1 ~]$ grep '\.org' mailqueue.txt | cut -d " " -f 1
+	remote	boflxxb@business994.org
+	remote	etuih@busixxbess994.org
+	remote	fefgwcd@busixxbess994.org
+	remote	fkjpgy@busixxbess994.org
+	remote	gfcl@busixxbess994.org
+	remote	iird@busixxbess994.org
+	remote	izof@busixxbess994.org
+	remote	mhib@busixxbess994.org
+	remote	mlbbva@busixxbess994.org
+	remote	oykef@busixxbess994.org
+	remote	pihsp@busixxbess994.org
+	remote	qcfgd@busixxbess994.org
+	remote	tkipy@busixxbess994.org
+	remote	txxbgkhr@business994.org
+	remote	torixxb@wheeloftime.org
+	remote	uqqgsyy@busixxbess994.org
+	remote	voqairf@busixxbess994.org
+	remote	wecd@busixxbess994.org
+	remote	wqbzq@busixxbess994.org
+	remote	ycgfmr@busixxbess994.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[guru@station1 ~]$ grep -c '\.org' mailqueue.txt
+40
+[guru@station1 ~]$ grep '\.org' mailqueue.txt
+        remote	boflxxb@business994.org
+	remote	etuih@busixxbess994.org
+	remote	fefgwcd@busixxbess994.org
+	remote	fkjpgy@busixxbess994.org
+	remote	gfcl@busixxbess994.org
+	remote	iird@busixxbess994.org
+	remote	izof@busixxbess994.org
+	remote	mhib@busixxbess994.org
+	remote	mlbbva@busixxbess994.org
+	remote	oykef@busixxbess994.org
+	remote	pihsp@busixxbess994.org
+	remote	qcfgd@busixxbess994.org
+	remote	tkipy@busixxbess994.org
+	remote	txxbgkhr@business994.org
+	remote	torixxb@wheeloftime.org
+	remote	uqqgsyy@busixxbess994.org
+	remote	voqairf@busixxbess994.org
+	remote	wecd@busixxbess994.org
+	remote	wqbzq@busixxbess994.org
+	remote	ycgfmr@busixxbess994.org
+  dbxxbe	remote	Mike_Moody@shorecrest.org
+  dbxxbe	remote	Paul.newey@SLC2002.org
+  dbxxbe	remote	becky@awu.org
+  dbxxbe	remote	carmen@la-familia.org
+  dbxxbe	remote	cballif@mwdslc.org
+  dbxxbe	remote	cronki@asme.org
+  dbxxbe	remote	dn@uacpa.org
+  dbxxbe	remote	doug%dominick.org@dominick.org
+  dbxxbe	remote	jan@urmma.org
+  dbxxbe	remote	jeff.allen@urs.org
+  dbxxbe	remote	john@pietrzak.org
+  dbxxbe	remote	mcdonaldk@cee-school.org
+  dbxxbe	remote	meggie@rainbow-bridge.org
+  dbxxbe	remote	michelle.foreman@staffstec.org.uk
+  dbxxbe	remote	phawk@outside.organic.com
+  dbxxbe	remote	robert.knutson@urs.org
+  dbxxbe	remote	simon@riedl.org
+  dbxxbe	remote	teresa@redowl.org
+  dbxxbe	remote	todd.lundy@urs.org
+  dbxxbe	remote	tsorenson@waterford.org
+[guru@station1 ~]$ grep #\.org$' mailqueue.txt
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try `grep --help' for more information.
+[guru@station1 ~]$ grep '\.org$' mailqueue.txt | cut -f3
+boflxxb@business994.org
+etuih@busixxbess994.org
+fefgwcd@busixxbess994.org
+fkjpgy@busixxbess994.org
+gfcl@busixxbess994.org
+iird@busixxbess994.org
+izof@busixxbess994.org
+mhib@busixxbess994.org
+mlbbva@busixxbess994.org
+oykef@busixxbess994.org
+pihsp@busixxbess994.org
+qcfgd@busixxbess994.org
+tkipy@busixxbess994.org
+txxbgkhr@business994.org
+torixxb@wheeloftime.org
+uqqgsyy@busixxbess994.org
+voqairf@busixxbess994.org
+wecd@busixxbess994.org
+wqbzq@busixxbess994.org
+ycgfmr@busixxbess994.org
+Mike_Moody@shorecrest.org
+Paul.newey@SLC2002.org
+becky@awu.org
+carmen@la-familia.org
+cballif@mwdslc.org
+cronki@asme.org
+dn@uacpa.org
+doug%dominick.org@dominick.org
+jan@urmma.org
+jeff.allen@urs.org
+john@pietrzak.org
+mcdonaldk@cee-school.org
+meggie@rainbow-bridge.org
+robert.knutson@urs.org
+simon@riedl.org
+teresa@redowl.org
+todd.lundy@urs.org
+tsorenson@waterford.org
 [guru@station1 ~]$ 
+
+
