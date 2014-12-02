@@ -59,5 +59,16 @@ BRACE EXPANSION ## bash only
 
 touch ## creates a file or updates datestamp on it
 
+_____________________________________________
+
+GENERAL QUOTING RULES
+
+single quotes tell it to leave everything alone
+double quotes still allow $SHELL, etc
+/ leaves alone next character
+
+multiple commands fromt eh smae line put ; betwenn them
+/ to keep line running
+
 
 
