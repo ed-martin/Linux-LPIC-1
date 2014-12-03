@@ -23,3 +23,17 @@ Shared options
     -f:
     -i: 
 
+DELETING AND CREATING FILES
+rm - removes (deletes) files and directories 
+    -i:
+    -f:
+    -r|-R:
+touch - creates empty files or updates mtime and atime on existing files
+    -a:
+    -m:
+    -t:
+    
+PHYSICAL UNIX FILE STRUCTURE
+
+FILESYSTEM LINKS
+
