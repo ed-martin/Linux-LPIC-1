@@ -20,18 +20,18 @@ cp - copies files and directories
 mv - moves or renames files and directories
     -u: overwrite only if destination is older than source
 Shared options
-    -f:
-    -i: 
+    -f: replace file without prompting 
+    -i: prompt before replacing a file
 
 DELETING AND CREATING FILES
 rm - removes (deletes) files and directories 
-    -i:
-    -f:
-    -r|-R:
+    -i: prompt before removing
+    -f: do not prompt before removing
+    -r|-R: remove direectories recursively 
 touch - creates empty files or updates mtime and atime on existing files
-    -a:
-    -m:
-    -t:
+    -a: set only atime to the current time
+    -m: set only mtime to the current time
+    -t: set both atime and mtime to a specified time 
     
 PHYSICAL UNIX FILE STRUCTURE
 
@@ -44,6 +44,7 @@ FILE EXTENSION AND CONTENT
         ## find allows u to track through and list files
         
 DISPLAYING FILES
+
 
 
         
