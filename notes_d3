@@ -37,3 +37,13 @@ PHYSICAL UNIX FILE STRUCTURE
 
 FILESYSTEM LINKS
 
+FILE EXTENSION AND CONTENT
+        find / -type -user guru -print
+        find / -type -user guru -exec file {} \;  ## if i find a file called eg. fred it goes in the curly brackets
+        find /home -user guru -exec file {} \; 2> /dev/null/
+        ## find allows u to track through and list files
+        
+DISPLAYING FILES
+
+
+        
