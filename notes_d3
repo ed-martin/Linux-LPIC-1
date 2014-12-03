@@ -1,3 +1,25 @@
 _____________________________________________
 CHAPTER 4
 _____________________________________________
+
+
+Q_3
+By default the roots home directory...
+/root/
+
+Only root can use the chown command to change the owner of a file.
+
+CHAPTER 4
+
+DIRECTORY MANIPULATION
+
+FILE MANIPULATION
+cp - copies files and directories
+    -a: archieve recursively, preserving permissions, ownership, links and not following symbolic links, etc.
+    -r: copy directories recursively
+mv - moves or renames files and directories
+    -u: overwrite only if destination is older than source
+Shared options
+    -f:
+    -i: 
+
