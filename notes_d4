@@ -1,3 +1,69 @@
 ____________________________________________
 Chapter 9
 ____________________________________________
+
+Q4
+inode numbers are unique per filesystem, but not necessary global.
+
+which 
+locate 
+whereis
+find
+
+find / name '*.[ch]' -exec grep -li loct {} \;
+
+-perm       ## look through the course notes on that page
+
+locate find
+whereis find  ## should reread 'whereis' section
+## man whereis
+## man locate
+
+dll - one program in memory and multiple programs can use it   ## shared objects in Linux
+
+/etc/ldd/conf
+
+ldd - ... What is the name of the command, without path, which displays a lsit of libraries need by a dynamically linked program?
+
+Q5 - Work with archives and compression
+
+RPM package - redhat package/ install shield for red hat linux
+
+.tar.gz
+.tgz
+
+gunzip 
+zcat
+bzip2 bunzip2
+PKZIP - Zip and Unzip
+
+____________________________________________
+Chapter 9
+____________________________________________
+
+CREATE, MONITOR, AND KILL PROCESSES
+
+What is a process?
+A process is a launched program
+Associated with a process:
+process ID (PID)
+prioirty
+nice value
+memory
+security context
+environment
+file handles
+exit status
+
+ps -eadlf
+
+
+grep -q root /etc/passed 2> /dev/null  ## all errors sent to black hole
+echo $?  ## allows to check if a command runs successfully - returns 0 is it ran ok.
+
+PROCESS LIFECYCLE
+fork() - create child duplicate of self
+exec() - spawn completely new process that replaces parent
+fork() + exec() - method for launching different processes
+
+
