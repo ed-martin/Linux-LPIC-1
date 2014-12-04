@@ -66,4 +66,41 @@ fork() - create child duplicate of self
 exec() - spawn completely new process that replaces parent
 fork() + exec() - method for launching different processes
 
+PROCESS STATES
+ps -eladf | grep find
+## a process can't go away until it has told someone
+## zombie process (can't tell its finished because process stopped and can't tell)
+
+VIEWING PROCESS
+ps - standard process listing tool
+    Uses /proc/ as information source
+    Can customise displayed output
+    Supports BSD (aux) and SysV options (-aef)
+pgrep - ps and grep ccombined
+pstree
+    Shows process tree
+top / htop
+    Provides summary information and stats on each runnning
+    process in real-time fashion
+jobs
+    Displays background/ suspended processes invoked from shell
+    
+JOB CONTROL COMMANDS
+fg - run job in foreground
+bg - run job in background
+kill terminate the job
+kill -l         ## kill send a messsage to a process
+
+TUNING PROCESS SCHEDULING
+nice
+One value considered by the kernel when allocating CPU time is the process nive values (an integer between -20 and 19). 
+
+
+
+
+____________________________________________
+Chapter 10
+____________________________________________
+
+USE RPM< YUM< AND DEBIAN PACKAGE MANAGEMENT
 
