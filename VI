@@ -2,8 +2,9 @@ FILE COMMANDS IN VIM
 
 vim filename (enter)                - edit filename (from a Linux shell prompt)
 :wq (enter)                         - write and quit
-(ctrl) + Z                          - write and quit
-
+ZZ                                  - write and quit
+(ctrl) + Z                          - suspend vim, fg(enter) to bring vim back into use
+:f (enter)                          - show the current file name
 ___________________________________________________________________________
 Lesson 1 
 ___________________________________________________________________________
