@@ -1,3 +1,9 @@
+FILE COMMANDS IN VIM
+
+vim filename (enter)                - edit filename (from a Linux shell prompt)
+:wq (enter)                         - write and quit
+(ctrl) + Z                          - write and quit
+
 ___________________________________________________________________________
 Lesson 1 
 ___________________________________________________________________________
